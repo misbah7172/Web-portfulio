@@ -1,5 +1,6 @@
 body{
     font-family: 'Alkatra', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -8,3 +9,27 @@ h1{
 .name{
     color: blueviolet;
 }
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    color: aliceblue;
+    background-image: linear-gradient(45deg,rgb(247, 117, 25),rgb(252, 147, 129));
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
