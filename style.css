@@ -6,6 +6,9 @@ h1{
     font-size: 300%;
     
 }
+h2{
+    font-size: 200%;
+}
 h3{
     font-size: 100%;
 }
@@ -16,7 +19,7 @@ h3{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-top: 5%;
+    padding: 3% 2%;
 }
 .half img{
     width: 100%;
@@ -27,6 +30,7 @@ h3{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     color: aliceblue;
@@ -35,24 +39,38 @@ section{
     padding: 2% 3%;
     border-radius: 6px;
 }
-.middle{
-    float: left;
-    margin-right: 9%;
-    margin-top: 2%;
-    width: 40%;
-    padding-top: 5%;
-}
-.middle img{
-    width: 100%;
-}
-.middle-button{
-    color: aliceblue;
-    background-image: linear-gradient(45deg , orange,yellow);
-    text-decoration: none;
-    padding: 2% 3%;
-    border-radius: 5px;
-}
 .middle-banner{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.color{
+    color: orange;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}
+.experience{
     background-image: url("image/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+}
+#expri{
+    text-align: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 119, 0),rgb(255, 193, 142));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
